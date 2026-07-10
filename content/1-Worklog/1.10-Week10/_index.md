@@ -1,57 +1,56 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-22
+weight: 10
 chapter: false
-pre: " <b> 1.10. </b> "
+pre: " <b>1.10.</b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Weekly Objectives
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+The primary objective of this week was to deploy the Saxophone Store website to the AWS Cloud environment and complete the remaining development tasks. In addition, I focused on integrating frontend and backend components, implementing additional cloud services, and ensuring that the application could operate reliably on AWS infrastructure.
 
+Another important goal was to perform system testing after deployment and verify that all services communicated correctly with each other.
 
-### Week 10 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Activities
 
-* Successfully created and configured an AWS Free Tier account.
+| Day | Activity | Date |
+|------|----------|------|
+| Monday | Deployed the Saxophone Store website to AWS Amplify. | 22/06/2026 |
+| Tuesday | Completed the frontend interface and user authentication module. | 23/06/2026 |
+| Wednesday | Developed REST APIs and integrated the frontend with backend services. | 24/06/2026 |
+| Thursday | Integrated Payment, AI, and Notification features into the application. | 25/06/2026 |
+| Friday | Performed DevSecOps tasks, monitored cloud resources, and tested the entire system. | 26/06/2026 |
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+## Work Summary
 
-* Used AWS CLI to perform basic operations such as:
+During this week, I successfully deployed the website to AWS Amplify and verified that the application could be accessed through the generated deployment URL. This deployment process provided valuable experience in building and hosting modern web applications on AWS.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+I also completed the remaining frontend components, including user authentication, responsive layouts, and navigation improvements. On the backend, I implemented REST APIs for product management, shopping cart operations, and order processing.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Furthermore, I participated in integrating additional services such as payment processing, AI-assisted features, and notification modules to improve the user experience.
+
+Before the end of the week, I conducted comprehensive testing to ensure that all services communicated correctly and that the application remained stable under different testing scenarios.
+
+---
+
+## Learning Outcomes
+
+- Successfully deployed the website using AWS Amplify.
+- Completed frontend development and user authentication.
+- Developed and integrated backend APIs.
+- Implemented Payment, AI, and Notification services.
+- Improved understanding of cloud deployment and DevSecOps practices.
+- Verified the stability of the deployed application.
+
+---
+
+## Weekly Reflection
+
+This week provided valuable experience in deploying a real-world application to AWS. Through the deployment process and service integration, I gained a deeper understanding of cloud application architecture, continuous deployment, and collaboration between frontend and backend systems.

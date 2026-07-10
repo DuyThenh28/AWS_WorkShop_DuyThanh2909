@@ -1,126 +1,125 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b>4.1.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
 
-### Event Objectives
+# Event Report: "Why Prompt Engineering Matters"
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## Event Information
 
-### Speakers
+**Date:** May 9, 2026
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+---
 
-### Key Highlights
+# Event Objectives
 
-#### Identifying the drawbacks of legacy application architecture
+The purpose of this session was to introduce the importance of Prompt Engineering in the AI era, encourage a growth mindset, and share practical development habits that improve productivity and software quality.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+---
 
-#### Transitioning to modern application architecture – Microservices
+# Key Topics
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## 1. Why Prompt Engineering Matters
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The speaker explained why Prompt Engineering has become an essential skill for developers working with AI tools.
 
-#### Domain-Driven Design (DDD)
+A well-designed prompt helps AI:
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+- Better understand user requirements.
+- Produce more accurate responses.
+- Reduce unnecessary revisions.
+- Improve overall development efficiency.
 
-#### Event-Driven Architecture
+Prompt Engineering is becoming an important skill not only for software development but also for testing, documentation, and problem solving.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+---
 
-#### Compute Evolution
+## 2. Grow Mindset – Always Ask "Why?"
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+One of the most valuable lessons from the event was developing a **Growth Mindset**.
 
-#### Amazon Q Developer
+Instead of simply following instructions, developers should always ask questions such as:
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- Why does this solution work?
+- Why is this approach better?
+- Why should we choose this technology?
 
-### Key Takeaways
+This habit helps improve critical thinking, problem-solving skills, and continuous learning.
 
-#### Design Mindset
+---
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+## 3. Learn from Successful Social Media Platforms
 
-#### Technical Architecture
+The speaker shared several principles behind the success of modern social media platforms.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+Important lessons included:
 
-#### Modernization Strategy
+- Focus on user experience.
+- Keep the product simple and intuitive.
+- Continuously improve based on user feedback.
+- Build features that encourage user engagement.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+These ideas can also be applied when designing and developing web applications.
 
-### Applying to Work
+---
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+## 4. Coding Discipline
 
-### Event Experience
+Another important topic was maintaining discipline during software development.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Some recommended practices included:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- Develop one User Story at a time.
+- Keep each feature independent.
+- Write clean, maintainable, and readable code.
+- Complete one task before moving to the next.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+These practices make teamwork easier and reduce development risks.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+---
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+# Knowledge Gained
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+After attending the event, I learned:
 
-#### Some event photos
-*Add your event photos here*  
+- The importance of Prompt Engineering when working with AI.
+- How to write more effective prompts for AI tools.
+- The value of maintaining a Growth Mindset.
+- Why developers should always ask "Why?" before implementing solutions.
+- Practical coding discipline for managing User Stories effectively.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+---
+
+# Applying the Knowledge to My Project
+
+For my **Saxophone Store Website** project, I can apply these lessons by:
+
+- Using AI tools to support coding, documentation, and debugging.
+- Writing clear prompts to improve AI-generated results.
+- Developing each User Story independently.
+- Focusing on user experience when designing website features.
+- Continuously asking "Why?" before making technical decisions.
+
+---
+
+# Personal Reflection
+
+This event provided valuable insights into both AI-assisted software development and professional working habits.
+
+The concept that impressed me the most was **"Always Ask Why."** It reminded me that understanding the reason behind a solution is more important than simply completing a task.
+
+I also realized that maintaining coding discipline and developing features step by step are essential for building reliable software and collaborating effectively within a development team.
+
+---
+
+# Event Photos
+
+![Event 1](/images/4-EventParticipated/event1-1.jpg)
+
+![Event 2](/images/4-EventParticipated/event1-2.jpg)
+

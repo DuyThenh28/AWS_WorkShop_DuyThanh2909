@@ -1,59 +1,43 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-05-11
+weight: 4
 chapter: false
-pre: " <b> 1.4. </b> "
+pre: " <b>1.4.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu của tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Nâng cao kiến thức về quản lý người dùng và bảo mật trên AWS thông qua IAM, đồng thời tìm hiểu các phương pháp bảo vệ tài khoản và phân quyền truy cập.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 4:
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Nghiên cứu AWS IAM và nguyên tắc quản lý quyền truy cập. | 11/05/2026 |
+| Thứ Ba | Tạo IAM User, IAM Group và IAM Role. | 12/05/2026 |
+| Thứ Tư | Thiết lập IAM Policy cho từng nhóm người dùng. | 13/05/2026 |
+| Thứ Năm | Kiểm tra quyền truy cập giữa các dịch vụ AWS. | 14/05/2026 |
+| Thứ Sáu | Thiết lập xác thực đa yếu tố (MFA). | 15/05/2026 |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kiến thức và kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Hiểu mô hình quản lý danh tính trên AWS.
+- Tạo và quản lý User, Group, Role.
+- Thiết lập IAM Policy phù hợp.
+- Kích hoạt MFA để tăng cường bảo mật.
+- Hiểu các nguyên tắc bảo mật cơ bản trên AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+## Khó khăn gặp phải
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Việc phân quyền chi tiết giữa các dịch vụ AWS khá phức tạp và dễ gây nhầm lẫn nếu cấu hình sai.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+## Hướng khắc phục
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+Em tham khảo AWS IAM Best Practices và kiểm tra quyền truy cập bằng IAM Policy Simulator trước khi áp dụng.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+## Đánh giá
 
-
+Sau tuần thứ tư, em đã có nền tảng tốt về quản lý người dùng và bảo mật trên AWS, giúp việc triển khai hệ thống trong các tuần tiếp theo an toàn và hiệu quả hơn.

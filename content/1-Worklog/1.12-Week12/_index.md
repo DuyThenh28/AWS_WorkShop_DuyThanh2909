@@ -1,57 +1,55 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-07-06
+weight: 12
 chapter: false
-pre: " <b> 1.12. </b> "
+pre: " <b>1.12.</b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 12 Objectives:
+## Weekly Objectives
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+The final week focused on completing the project, performing final system testing, preparing the internship report, and delivering the complete source code and technical documentation to the project supervisor and mentor.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+This week also provided an opportunity to review the knowledge and practical experience gained throughout the internship.
 
+---
 
-### Week 12 Achievements:
+## Activities
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Day | Activity | Date |
+|------|----------|------|
+| Monday | Performed final system testing and fixed remaining issues. | 06/07/2026 |
+| Tuesday | Finalized project documentation and AWS architecture diagrams. | 07/07/2026 |
+| Wednesday | Prepared the internship report and summarized project results. | 08/07/2026 |
+| Thursday | Delivered the project source code and technical documentation. | 09/07/2026 |
+| Friday | Completed the internship review and evaluated the overall project outcomes. | 10/07/2026 |
 
-* Successfully created and configured an AWS Free Tier account.
+---
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+## Work Summary
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+During the final week, I conducted comprehensive testing on the entire website to ensure that every feature worked correctly before project delivery. Functional testing, user interface testing, and cloud service verification were performed to confirm the stability of the system.
 
-* Used AWS CLI to perform basic operations such as:
+After completing the testing process, I finalized the project documentation, including the AWS deployment architecture, database design, system configuration guide, and user manual.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+I also prepared the internship report, summarized the project achievements, and organized all required documents for submission.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Finally, the project source code and documentation were handed over to the mentor and academic supervisor. The internship concluded with a review of the project's objectives, achievements, challenges, and lessons learned throughout the twelve-week program.
+
+---
+
+## Learning Outcomes
+
+- Successfully completed final system testing.
+- Fixed all remaining issues before project delivery.
+- Completed technical documentation and deployment guides.
+- Finished the internship report.
+- Delivered the complete project source code and documentation.
+- Improved practical knowledge of AWS cloud computing and software engineering.
+
+---
+
+## Weekly Reflection
+
+The twelve-week internship provided valuable hands-on experience in cloud computing, software development, and teamwork. Throughout the program, I learned how to design, develop, deploy, and maintain a web application using AWS services. In addition to technical skills, I also improved my communication, problem-solving, time management, and collaboration abilities. This internship has become an important milestone in preparing me for future professional software development projects.

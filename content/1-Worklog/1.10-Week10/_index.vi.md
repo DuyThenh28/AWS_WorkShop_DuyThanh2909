@@ -1,59 +1,54 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+date: 2026-06-22
+weight: 10
 chapter: false
-pre: " <b> 1.10. </b> "
+pre: " <b>1.10.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 10:
+## Mục tiêu của tuần
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+Sau khi hoàn thiện các chức năng cơ bản của Website bán kèn Saxophone, mục tiêu của tuần này là triển khai hệ thống lên môi trường Cloud, hoàn thiện các thành phần Frontend và Backend, đồng thời tích hợp các dịch vụ hỗ trợ nhằm đảm bảo website có thể hoạt động ổn định trên hạ tầng AWS.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Ngoài ra, nhóm cũng tập trung kiểm thử khả năng kết nối giữa các dịch vụ và tối ưu quy trình triển khai để chuẩn bị cho giai đoạn hoàn thiện dự án.
 
+---
 
-### Kết quả đạt được tuần 10:
+## Công việc đã thực hiện
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Triển khai Website bán kèn Saxophone lên AWS Amplify. | 22/06/2026 |
+| Thứ Ba | Hoàn thiện giao diện người dùng và chức năng đăng nhập, xác thực tài khoản. | 23/06/2026 |
+| Thứ Tư | Xây dựng API và kết nối giữa Frontend với Backend. | 24/06/2026 |
+| Thứ Năm | Tích hợp Payment, AI và Notification vào hệ thống. | 25/06/2026 |
+| Thứ Sáu | Thực hiện DevSecOps, giám sát hệ thống và kiểm thử toàn bộ website. | 26/06/2026 |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+---
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+## Nội dung thực hiện
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Trong tuần này, em cùng các thành viên trong nhóm tiến hành triển khai website lên AWS Amplify để kiểm tra khả năng hoạt động trên môi trường Cloud. Sau khi cấu hình thành công quá trình Build và Deploy, website có thể truy cập thông qua tên miền được AWS Amplify cung cấp.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+Song song với đó, giao diện người dùng tiếp tục được hoàn thiện nhằm cải thiện trải nghiệm sử dụng. Chức năng đăng nhập và xác thực tài khoản cũng được kiểm tra để đảm bảo người dùng có thể truy cập hệ thống một cách an toàn.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+Ở phía Backend, nhóm xây dựng các API phục vụ việc lấy dữ liệu sản phẩm, quản lý đơn hàng và kết nối cơ sở dữ liệu. Sau khi hoàn tất, Frontend và Backend đã có thể trao đổi dữ liệu ổn định thông qua các API.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+Ngoài ra, nhóm còn nghiên cứu tích hợp thêm các thành phần như Payment, AI và Notification để mở rộng chức năng của hệ thống. Cuối tuần, toàn bộ website được kiểm thử trên môi trường AWS nhằm phát hiện và khắc phục các lỗi trước khi bước sang giai đoạn hoàn thiện.
 
+---
 
+## Kết quả đạt được
+
+- Website được triển khai thành công trên AWS Amplify.
+- Giao diện và chức năng xác thực hoạt động ổn định.
+- API kết nối thành công giữa Frontend và Backend.
+- Hoàn thành tích hợp các chức năng Payment, AI và Notification.
+- Hệ thống hoạt động ổn định sau quá trình kiểm thử.
+
+---
+
+## Đánh giá
+
+Tuần thứ mười là giai đoạn quan trọng khi dự án được triển khai lên môi trường Cloud thực tế. Qua quá trình triển khai và kiểm thử, em hiểu rõ hơn quy trình phát triển một ứng dụng hoàn chỉnh trên AWS cũng như cách phối hợp giữa các thành phần của hệ thống.

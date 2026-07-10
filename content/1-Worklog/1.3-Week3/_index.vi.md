@@ -1,59 +1,43 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-05-04
+weight: 3
 chapter: false
-pre: " <b> 1.3. </b> "
+pre: " <b>1.3.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu của tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Áp dụng kiến thức đã học để triển khai website trên Amazon EC2, tìm hiểu hệ thống mạng AWS và làm quen với công cụ giám sát CloudWatch.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 3:
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Triển khai website thử nghiệm lên EC2. | 04/05/2026 |
+| Thứ Ba | Tìm hiểu Amazon VPC và Subnet. | 05/05/2026 |
+| Thứ Tư | Giám sát tài nguyên EC2 bằng Amazon CloudWatch. | 06/05/2026 |
+| Thứ Năm | Quản lý mã nguồn bằng Git và GitHub. | 07/05/2026 |
+| Thứ Sáu | Họp nhóm và báo cáo tiến độ công việc. | 08/05/2026 |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kiến thức và kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Website hoạt động trên EC2.
+- Hiểu mô hình mạng VPC.
+- Theo dõi tài nguyên bằng CloudWatch.
+- Quản lý source code với Git.
+- Hoàn thành báo cáo tiến độ.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+## Khó khăn gặp phải
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Quá trình triển khai website gặp lỗi cấu hình Security Group và cổng dịch vụ, khiến website chưa thể truy cập từ Internet.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+## Hướng khắc phục
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+Kiểm tra lại các Rule của Security Group, xác nhận địa chỉ IP và cấu hình Web Server trước khi triển khai lại.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+## Đánh giá
 
-
+Qua tuần này, em hiểu rõ hơn quy trình triển khai ứng dụng trên môi trường Cloud và cách theo dõi tình trạng hoạt động của hệ thống.

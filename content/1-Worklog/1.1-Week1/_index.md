@@ -1,57 +1,46 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-04-20
 weight: 1
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b>1.1.</b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Weekly Objectives
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+The primary objective of the first week was to become familiar with the AWS environment and understand the basic concepts of cloud computing. In addition, I explored the AWS Management Console and learned the core AWS services that will be used throughout the internship.
 
+## Activities
 
-### Week 1 Achievements:
+| Day | Activity | Date |
+|------|----------|------|
+| Monday | Explored the AWS Management Console and learned about the main AWS service categories. | 20/04/2026 |
+| Tuesday | Studied Amazon EC2 and practiced launching an EC2 Instance. | 21/04/2026 |
+| Wednesday | Configured AMI, Key Pair, and Security Group for an EC2 Instance. | 22/04/2026 |
+| Thursday | Learned how to monitor AWS costs using Billing & Cost Management. | 23/04/2026 |
+| Friday | Studied the AWS Global Infrastructure, including Regions and Availability Zones. | 24/04/2026 |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Learning Outcomes
 
-* Successfully created and configured an AWS Free Tier account.
+At the end of the first week, I was able to:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Understand the basic concepts of cloud computing.
+- Navigate the AWS Management Console confidently.
+- Launch and configure an Amazon EC2 Instance.
+- Understand the purpose of AMI, Key Pair, and Security Groups.
+- Monitor cloud service costs through AWS Billing.
+- Gain an overview of AWS Global Infrastructure.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+## Challenges
 
-* Used AWS CLI to perform basic operations such as:
+Since this was my first experience using AWS, I initially found it difficult to understand the large number of available services and the relationship between EC2 components such as AMI, Key Pair, and Security Groups.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+## Solutions
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+To overcome these challenges, I reviewed the AWS official documentation, followed the AWS Workforce Bootcamp learning materials, and repeatedly practiced each exercise until I became familiar with the deployment process.
+
+## Weekly Reflection
+
+The first week provided a solid foundation in AWS fundamentals. The knowledge and practical experience gained during this period will support more advanced cloud deployment tasks in the following weeks.

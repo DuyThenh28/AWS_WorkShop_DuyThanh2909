@@ -1,58 +1,35 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 6
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " <b>1.6.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu của tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Bắt đầu giai đoạn chuẩn bị dự án Website bán kèn Saxophone bằng việc phân tích yêu cầu, thiết kế kiến trúc hệ thống và lựa chọn các dịch vụ AWS phù hợp.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Phân tích yêu cầu và phạm vi của dự án Website bán kèn Saxophone. | 25/05/2026 |
+| Thứ Ba | Thiết kế kiến trúc hệ thống triển khai trên AWS. | 26/05/2026 |
+| Thứ Tư | Xây dựng Use Case và mô hình cơ sở dữ liệu. | 27/05/2026 |
+| Thứ Năm | Phân chia nhiệm vụ và lập kế hoạch phát triển dự án. | 28/05/2026 |
+| Thứ Sáu | Nghiên cứu các dịch vụ AWS sẽ sử dụng trong dự án. | 29/05/2026 |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+## Kết quả đạt được
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Xác định rõ phạm vi dự án.
+- Hoàn thành sơ đồ kiến trúc hệ thống.
+- Thiết kế Use Case và cơ sở dữ liệu.
+- Hoàn thành kế hoạch phát triển dự án.
+- Lựa chọn được các dịch vụ AWS phù hợp.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+## Đánh giá
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+Tuần này đánh dấu bước chuyển từ học tập sang xây dựng dự án thực tế, giúp em hiểu rõ quy trình phân tích và thiết kế trước khi triển khai hệ thống.

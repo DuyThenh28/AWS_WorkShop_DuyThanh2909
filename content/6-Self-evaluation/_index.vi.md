@@ -1,40 +1,51 @@
 ---
 title: "Tự đánh giá"
-date: 2024-01-01
+date: 2026-04-20
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b>6.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Sau **12 tuần thực tập** tại **Công ty TNHH Amazon Web Services Việt Nam**, em đã có cơ hội tiếp cận quy trình phát triển phần mềm và triển khai hệ thống trên nền tảng điện toán đám mây AWS.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Trong thời gian thực tập, em tham gia phát triển dự án **Website Bán Kèn Saxophone**, đồng thời nghiên cứu và thực hành các dịch vụ như Amazon EC2, Amazon S3, IAM, VPC, AWS Amplify, CloudWatch và GitHub.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+Thông qua dự án, em không chỉ nâng cao kiến thức chuyên môn mà còn rèn luyện các kỹ năng làm việc nhóm, quản lý thời gian, tự học và giải quyết các vấn đề phát sinh trong quá trình phát triển phần mềm.
 
+Dưới đây là phần tự đánh giá dựa trên quá trình thực tập của bản thân.
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+---
 
-### Cần cải thiện
+## Bảng tự đánh giá
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+| STT | Tiêu chí | Mô tả | Xuất sắc | Tốt | Cần cải thiện |
+|-----|----------|-------|:--------:|:---:|:-------------:|
+| 1 | Kiến thức chuyên môn | Hiểu và áp dụng kiến thức AWS, Cloud Computing và phát triển Website | ✅ | ☐ | ☐ |
+| 2 | Khả năng tiếp thu | Tiếp cận nhanh các công nghệ và kiến thức mới | ☐ | ✅ | ☐ |
+| 3 | Tinh thần học hỏi | Chủ động nghiên cứu tài liệu và thực hành | ✅ | ☐ | ☐ |
+| 4 | Trách nhiệm trong công việc | Hoàn thành nhiệm vụ đúng tiến độ và đảm bảo chất lượng | ✅ | ☐ | ☐ |
+| 5 | Quản lý thời gian | Sắp xếp công việc hợp lý và đúng kế hoạch | ☐ | ✅ | ☐ |
+| 6 | Làm việc nhóm | Phối hợp hiệu quả với các thành viên trong nhóm | ✅ | ☐ | ☐ |
+| 7 | Kỹ năng giao tiếp | Trao đổi công việc với mentor và các thành viên | ☐ | ✅ | ☐ |
+| 8 | Giải quyết vấn đề | Phân tích và xử lý các lỗi trong quá trình phát triển | ☐ | ✅ | ☐ |
+| 9 | Khả năng thích nghi | Thích nghi với môi trường làm việc và công nghệ mới | ✅ | ☐ | ☐ |
+| 10 | Thái độ làm việc | Tích cực, nghiêm túc và có trách nhiệm | ✅ | ☐ | ☐ |
+| 11 | Đóng góp cho dự án | Hoàn thành các nhiệm vụ được giao và hỗ trợ nhóm | ☐ | ✅ | ☐ |
+| 12 | Đánh giá chung | Mức độ hoàn thành chương trình thực tập | ✅ | ☐ | ☐ |
+
+---
+
+## Những điểm cần cải thiện
+
+- Nâng cao kiến thức về kiến trúc hệ thống trên AWS và các dịch vụ nâng cao.
+- Tiếp tục cải thiện kỹ năng tối ưu hiệu năng của ứng dụng và cơ sở dữ liệu.
+- Rèn luyện khả năng giao tiếp và trình bày ý tưởng trong các buổi họp nhóm.
+- Tìm hiểu thêm về DevOps, CI/CD và quy trình triển khai tự động trên AWS.
+- Cập nhật thường xuyên các công nghệ mới liên quan đến Cloud Computing và phát triển Web.
+
+---
+
+## Đánh giá chung
+
+Chương trình thực tập đã giúp em hiểu rõ hơn về quy trình phát triển phần mềm trong doanh nghiệp cũng như cách triển khai một ứng dụng thực tế trên nền tảng AWS. Đây là cơ hội để em vận dụng kiến thức đã học vào dự án thực tế, đồng thời tích lũy kinh nghiệm làm việc nhóm và nâng cao kỹ năng chuyên môn để chuẩn bị cho công việc sau khi tốt nghiệp.

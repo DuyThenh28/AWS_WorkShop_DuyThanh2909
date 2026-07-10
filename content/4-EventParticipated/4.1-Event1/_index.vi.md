@@ -1,125 +1,127 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b>4.1.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+{{% notice note %}}
+⚠️ **Lưu ý:** Nội dung dưới đây được tổng hợp từ sự kiện em tham gia trong chương trình AWS Workforce Bootcamp - First Cloud AI Journey.
 {{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Báo cáo tham gia sự kiện "Why Prompt Engineering Matters"
 
-### Mục Đích Của Sự Kiện
+## Thời gian tham gia
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+**Ngày:** 09/05/2026
 
-### Danh Sách Diễn Giả
+---
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+# Mục đích của sự kiện
 
-### Nội Dung Nổi Bật
+Buổi chia sẻ giúp học viên hiểu rõ hơn về vai trò của **Prompt Engineering** trong thời đại AI, đồng thời giới thiệu cách xây dựng tư duy học tập hiệu quả, phương pháp làm việc chuyên nghiệp và cách ứng dụng AI vào quá trình phát triển phần mềm.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+---
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+# Nội dung chính
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+## 1. Why Prompt Engineering Matters
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Diễn giả giải thích vì sao Prompt Engineering đang trở thành một kỹ năng quan trọng đối với lập trình viên trong thời đại AI.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Một prompt rõ ràng và đầy đủ sẽ giúp AI:
 
-#### Domain-Driven Design (DDD)
+- Hiểu đúng yêu cầu.
+- Đưa ra kết quả chính xác hơn.
+- Giảm thời gian chỉnh sửa.
+- Nâng cao hiệu quả làm việc.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Bên cạnh đó, Prompt Engineering không chỉ áp dụng cho ChatGPT mà còn được sử dụng với nhiều công cụ AI khác phục vụ cho lập trình, kiểm thử và phân tích dữ liệu.
 
-#### Event-Driven Architecture
+---
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+## 2. Grow Mindset – Always Ask "Why?"
 
-#### Compute Evolution
+Một nội dung rất ấn tượng của buổi chia sẻ là tư duy **Grow Mindset**.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Thay vì chỉ làm theo hướng dẫn, người học cần luôn đặt câu hỏi:
 
-#### Amazon Q Developer
+- Why does this work?
+- Why is this solution better?
+- Why should we use this technology?
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Việc liên tục đặt câu hỏi giúp hiểu bản chất vấn đề, phát triển tư duy phản biện và hình thành khả năng tự học thay vì chỉ ghi nhớ kiến thức.
 
-### Những Gì Học Được
+---
 
-#### Tư Duy Thiết Kế
+## 3. Learn from Successful Social Media Platforms
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+Diễn giả chia sẻ rằng các nền tảng mạng xã hội lớn đều có công thức thu hút và giữ chân người dùng rất hiệu quả.
 
-#### Kiến Trúc Kỹ Thuật
+Một số bài học được rút ra gồm:
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Luôn lấy người dùng làm trung tâm.
+- Tối ưu trải nghiệm sử dụng.
+- Đơn giản hóa thao tác.
+- Liên tục cải tiến sản phẩm dựa trên phản hồi của người dùng.
 
-#### Chiến Lược Hiện Đại Hóa
+Những nguyên tắc này hoàn toàn có thể áp dụng khi phát triển các ứng dụng và website.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+---
 
-### Ứng Dụng Vào Công Việc
+## 4. Coding Discipline
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Một nội dung quan trọng khác là xây dựng tính kỷ luật trong quá trình phát triển phần mềm.
 
-### Trải nghiệm trong event
+Diễn giả khuyến khích:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Mỗi User Story nên được phát triển riêng biệt.
+- Không thực hiện quá nhiều chức năng trong cùng một lần commit.
+- Hoàn thành từng Story trước khi chuyển sang Story tiếp theo.
+- Viết mã nguồn rõ ràng, dễ bảo trì và dễ kiểm thử.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Điều này giúp dự án dễ quản lý hơn, giảm xung đột khi làm việc nhóm và thuận lợi cho việc kiểm thử.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+---
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+# Kiến thức tiếp thu
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Sau sự kiện, em đã học được:
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Vai trò của Prompt Engineering trong phát triển phần mềm.
+- Cách viết prompt hiệu quả để làm việc cùng AI.
+- Tư duy Grow Mindset và thói quen luôn đặt câu hỏi "Why?".
+- Cách áp dụng kinh nghiệm từ các nền tảng mạng xã hội vào việc phát triển sản phẩm.
+- Ý nghĩa của việc xây dựng kỷ luật trong lập trình và quản lý User Story.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+---
+
+# Ứng dụng vào dự án
+
+Đối với dự án **Website Bán Kèn Saxophone**, em có thể áp dụng:
+
+- Sử dụng AI để hỗ trợ viết code, tạo tài liệu và kiểm thử.
+- Luôn phân tích yêu cầu trước khi bắt đầu phát triển chức năng mới.
+- Phát triển từng User Story riêng biệt để dễ quản lý tiến độ.
+- Tối ưu trải nghiệm người dùng dựa trên phản hồi và nhu cầu thực tế.
+- Chủ động đặt câu hỏi "Why?" trong quá trình thiết kế và triển khai hệ thống.
+
+---
+
+# Cảm nhận sau sự kiện
+
+Buổi chia sẻ tuy không quá dài nhưng mang lại nhiều kiến thức hữu ích và góc nhìn mới về việc ứng dụng AI trong lập trình.
+
+Điều em ấn tượng nhất là tư duy **Grow Mindset** và thông điệp **"Always Ask Why"**. Đây là phương pháp giúp em không chỉ hoàn thành công việc mà còn hiểu rõ bản chất của vấn đề để có thể phát triển lâu dài.
+
+Ngoài ra, việc xây dựng tính kỷ luật khi phát triển từng User Story cũng là một kinh nghiệm thực tế rất hữu ích mà em sẽ áp dụng trong các dự án sau này.
+
+---
+
+# Hình ảnh tham gia sự kiện
+
+![Event 1](/images/4-EventParticipated/event1-1.jpg)
+
+![Event 2](/images/4-EventParticipated/event1-2.jpg)
+

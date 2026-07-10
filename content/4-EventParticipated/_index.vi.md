@@ -1,46 +1,45 @@
 ---
-title: "Các events đã tham gia"
+title: "Các sự kiện đã tham gia"
 date: 2024-01-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong thời gian thực tập tại **Amazon Web Services Vietnam Co., Ltd.**, em đã tham gia workshop và sự kiện chuyên môn do AWS tổ chức. Những hoạt động này giúp em tiếp cận các công nghệ mới, học hỏi kinh nghiệm từ các chuyên gia và nâng cao cả kiến thức chuyên môn lẫn kỹ năng mềm.
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+---
 
+## 📌 Event 1
+### [GenAI-powered App-DB Modernization Workshop](4.1-Event1/)
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+| **Thông tin** | **Chi tiết** |
+|:--------------|:-------------|
+| **📅 Thời gian** | 09:00, ngày 09/05/2026 |
+| **📍 Địa điểm** | Tầng 26, Tòa nhà Bitexco, số 02 Hải Triều, Phường Sài Gòn, TP. Hồ Chí Minh |
+| **👤 Vai trò** | Người tham dự |
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+### 📝 Mô tả
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+Workshop giới thiệu việc ứng dụng **Generative AI** vào quá trình hiện đại hóa ứng dụng và cơ sở dữ liệu trên nền tảng AWS. Chương trình bao gồm các bài chia sẻ từ chuyên gia, trình diễn giải pháp thực tế và phần trao đổi giữa diễn giả với người tham dự.
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+### 🎯 Kết quả và giá trị đạt được
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+- Hiểu rõ hơn về Generative AI và các ứng dụng trong phát triển phần mềm.
+- Mở rộng kiến thức về AWS Cloud và Database Modernization.
+- Học hỏi kinh nghiệm thực tế từ các chuyên gia AWS.
+- Nâng cao kỹ năng giao tiếp, lắng nghe và tư duy giải quyết vấn đề.
+- Áp dụng những kiến thức đã học vào dự án **Website Bán Nhạc Cụ Saxophone**.
 
 
 
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+### 📝 Mô tả
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+Đây là buổi tổng kết chương trình thực tập, nơi các nhóm trình bày sản phẩm đã hoàn thành sau 12 tuần học tập và phát triển. Nhóm em giới thiệu dự án **Website Bán Nhạc Cụ Saxophone**, chia sẻ kiến trúc hệ thống, quy trình triển khai trên AWS và các chức năng chính của website.
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+### 🎯 Kết quả và giá trị đạt được
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+- Rèn luyện kỹ năng thuyết trình và trình bày dự án.
+- Tiếp thu góp ý từ mentor để cải thiện sản phẩm.
+- Nâng cao kỹ năng làm việc nhóm và quản lý tiến độ.
+- Hoàn thiện dự án và tích lũy thêm kinh nghiệm triển khai ứng dụng trên AWS.

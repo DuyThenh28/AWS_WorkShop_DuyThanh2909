@@ -1,39 +1,55 @@
 ---
-title: "Self-Assessment"
-date: 2024-01-01
+title: "Self Evaluation"
+date: 2026-04-20
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b>6.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
+{{% notice note %}}
+⚠️ **Note:** The following self-evaluation is based on my internship experience while developing the **Saxophone Store Website** during the **AWS Workforce Bootcamp – First Cloud AI Journey**.
 {{% /notice %}}
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+During my **12-week internship** at **Amazon Web Services Vietnam Co., Ltd.**, I had the opportunity to gain practical experience in cloud computing, software development, and AWS services.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+Throughout the internship, I participated in developing the **Saxophone Store Website**, where I applied AWS technologies such as Amazon EC2, Amazon S3, IAM, VPC, AWS Amplify, CloudWatch, and GitHub to build and deploy a cloud-based web application.
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+Besides improving my technical knowledge, I also strengthened my teamwork, communication, time management, and problem-solving skills while working on a real-world software project.
 
-### Needs Improvement
+The following table summarizes my self-assessment throughout the internship.
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+---
+
+## Self-Assessment
+
+| No. | Evaluation Criteria | Description | Excellent | Good | Needs Improvement |
+|----|----------------------|-------------|:---------:|:----:|:----------------:|
+| 1 | Technical Knowledge | Applying AWS and software development knowledge | ✅ | ☐ | ☐ |
+| 2 | Learning Ability | Learning and adapting to new technologies | ☐ | ✅ | ☐ |
+| 3 | Initiative | Self-learning and researching documentation | ✅ | ☐ | ☐ |
+| 4 | Responsibility | Completing assigned tasks on time | ✅ | ☐ | ☐ |
+| 5 | Time Management | Managing workload effectively | ☐ | ✅ | ☐ |
+| 6 | Teamwork | Collaborating effectively with team members | ✅ | ☐ | ☐ |
+| 7 | Communication Skills | Reporting progress and discussing technical issues | ☐ | ✅ | ☐ |
+| 8 | Problem Solving | Analyzing and resolving technical problems | ☐ | ✅ | ☐ |
+| 9 | Adaptability | Adjusting quickly to new environments and tools | ✅ | ☐ | ☐ |
+| 10 | Professional Attitude | Demonstrating responsibility and professionalism | ✅ | ☐ | ☐ |
+| 11 | Project Contribution | Contributing effectively to the project | ☐ | ✅ | ☐ |
+| 12 | Overall Performance | Overall internship performance | ✅ | ☐ | ☐ |
+
+---
+
+## Areas for Improvement
+
+- Improve my knowledge of advanced AWS architecture and cloud services.
+- Continue learning about application and database performance optimization.
+- Strengthen presentation and communication skills during team meetings.
+- Gain more experience with DevOps, CI/CD, and cloud automation.
+- Continuously update my knowledge of modern cloud computing and web development technologies.
+
+---
+
+## Overall Reflection
+
+This internship provided valuable hands-on experience in software engineering and cloud computing. Working on the **Saxophone Store Website** allowed me to apply theoretical knowledge to a real-world project while improving both my technical and professional skills. The experience has prepared me for future careers in cloud computing and software development.

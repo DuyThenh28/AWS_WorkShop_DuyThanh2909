@@ -1,59 +1,43 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-04-27
+weight: 2
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b>1.2.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu của tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Trong tuần thứ hai, em tiếp tục thực hành với các dịch vụ AWS bằng cách kết nối đến máy chủ EC2 thông qua SSH, làm quen với dịch vụ lưu trữ Amazon S3 và tìm hiểu cách quản lý người dùng bằng AWS IAM. Ngoài ra, em cũng bắt đầu sử dụng AWS CLI để thao tác với các tài nguyên trên nền tảng AWS.
 
+## Công việc đã thực hiện
 
-### Kết quả đạt được tuần 2:
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Thực hành kết nối EC2 bằng giao thức SSH từ máy tính cá nhân. | 27/04/2026 |
+| Thứ Ba | Tạo Bucket trên Amazon S3 và thực hiện tải lên, tải xuống dữ liệu. | 28/04/2026 |
+| Thứ Tư | Tìm hiểu IAM User, IAM Group và IAM Policy để quản lý quyền truy cập. | 29/04/2026 |
+| Thứ Năm | Cài đặt và sử dụng AWS CLI để quản lý tài nguyên AWS bằng dòng lệnh. | 30/04/2026 |
+| Thứ Sáu | Ôn tập các nội dung đã học và thực hiện các bài thực hành tổng hợp. | 01/05/2026 |
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+## Kiến thức và kết quả đạt được
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Kết nối thành công đến EC2 bằng SSH.
+- Tạo và quản lý Bucket trên Amazon S3.
+- Hiểu cơ chế phân quyền bằng IAM.
+- Thực hiện các thao tác cơ bản với AWS CLI.
+- Biết cách quản lý tài nguyên AWS thông qua giao diện dòng lệnh.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+## Khó khăn gặp phải
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Một số lệnh AWS CLI có cú pháp khá dài và dễ nhầm lẫn. Bên cạnh đó, việc phân quyền IAM ban đầu còn gây khó khăn khi xác định quyền phù hợp.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+## Hướng khắc phục
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+Em tham khảo AWS CLI Reference và IAM Documentation để hiểu rõ từng lệnh và từng loại Policy. Đồng thời thực hành nhiều lần trên tài khoản AWS để ghi nhớ quy trình.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+## Đánh giá
 
-
+Tuần thứ hai giúp em hiểu rõ hơn về cách quản lý tài nguyên trên AWS cũng như nâng cao khả năng làm việc thông qua giao diện dòng lệnh.

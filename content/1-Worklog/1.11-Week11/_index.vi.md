@@ -1,59 +1,53 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+date: 2026-06-29
+weight: 11
 chapter: false
-pre: " <b> 1.11. </b> "
+pre: " <b>1.11.</b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+## Mục tiêu của tuần
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+Tuần thứ mười một tập trung hoàn thiện toàn bộ chức năng còn lại của Website bán kèn Saxophone, kiểm thử hệ thống, tối ưu hiệu năng và chuẩn bị các tài liệu kỹ thuật để phục vụ cho quá trình nghiệm thu dự án.
 
+---
 
-### Kết quả đạt được tuần 11:
+## Công việc đã thực hiện
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Thứ | Nội dung công việc | Thời gian |
+|------|--------------------|-----------|
+| Thứ Hai | Hoàn thiện các chức năng còn thiếu của website. | 29/06/2026 |
+| Thứ Ba | Kiểm thử giao diện và các chức năng của hệ thống. | 30/06/2026 |
+| Thứ Tư | Tối ưu tốc độ xử lý và trải nghiệm người dùng. | 01/07/2026 |
+| Thứ Năm | Kiểm tra các dịch vụ AWS sau khi triển khai. | 02/07/2026 |
+| Thứ Sáu | Hoàn thiện tài liệu kỹ thuật của dự án. | 03/07/2026 |
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+---
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+## Nội dung thực hiện
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+Trong tuần này, nhóm tập trung hoàn thiện các chức năng còn lại của website như quản lý sản phẩm, giỏ hàng, thanh toán và các chức năng dành cho quản trị viên.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+Sau khi hoàn thành chức năng, em tiến hành kiểm thử giao diện trên nhiều kích thước màn hình khác nhau để đảm bảo website hiển thị chính xác trên cả máy tính và thiết bị di động.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+Bên cạnh đó, nhóm tối ưu hiệu suất bằng cách giảm thời gian tải trang, tối ưu hình ảnh và cải thiện tốc độ phản hồi của API. Các dịch vụ AWS như EC2, RDS và S3 cũng được kiểm tra lại nhằm đảm bảo hệ thống luôn hoạt động ổn định.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+Cuối tuần, nhóm hoàn thiện tài liệu kỹ thuật bao gồm kiến trúc hệ thống, sơ đồ triển khai, cơ sở dữ liệu và hướng dẫn cài đặt để phục vụ quá trình bàn giao.
 
+---
 
+## Kết quả đạt được
+
+- Hoàn thiện toàn bộ chức năng của website.
+- Khắc phục các lỗi phát hiện trong quá trình kiểm thử.
+- Tối ưu hiệu năng và cải thiện trải nghiệm người dùng.
+- Các dịch vụ AWS hoạt động ổn định.
+- Hoàn thành tài liệu kỹ thuật phục vụ bàn giao.
+
+---
+
+## Đánh giá
+
+Qua tuần thứ mười một, dự án đã gần như hoàn thiện. Em học được cách kiểm thử toàn bộ hệ thống, tối ưu hiệu suất và chuẩn bị tài liệu kỹ thuật theo quy trình phát triển phần mềm thực tế.
