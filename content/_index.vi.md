@@ -91,7 +91,7 @@ line-height:2;
 | **Trường** | Đại học Công nghệ TP. Hồ Chí Minh (HUTECH) |
 | **Chuyên ngành** | Công nghệ Thông tin |
 | **Lớp** | 22DTHD7 |
-| **Đơn vị thực tập** | Công ty TNHH Amazon Web Services Viet Nam |
+| **Đơn vị thực tập** | Công ty TNHH Amazon Web Services Việt Nam |
 | **Chương trình** | Workforce Bootcamp – First Cloud AI Journey |
 | **Thời gian thực tập** | 20/04/2026 – 20/07/2026 |
 | **Đề tài** | Website Bán Nhạc Cụ Saxophone |
@@ -103,7 +103,7 @@ line-height:2;
 
 ![](/images/avatar.jpg)
 
-### Đinh Nguyễn Duy Thành
+### Đinh Nguyễn Duy Thanh
 
 </div>
 
